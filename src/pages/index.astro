@@ -1,0 +1,55 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+		ul {
+			font-size: 1.1em;
+			line-height: 1.75em;
+			margin: 5px 0 15px;
+		}
+		li {
+			list-style: none;
+			position: relative;
+			padding: 0 0 0 20px;
+		}
+		li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 14px;
+			height: 5px;
+			width: 5px;
+			border: 1px solid #000;
+			border-width: 2px 2px 0 0;
+			transform: rotate(45deg);
+		}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Hello, weary traveler...</h1>
+			<p>
+				Welcome to my blog. I do hope you will find what you are looking for. Remember to:
+			</p>
+			
+			<ul>
+				<li>Strive for greatness.</li>
+				<li>Be kind, to others and to yourself.</li>
+				<li>Take action, to change the world into one you want to live in.</li>
+				<li>Find purpose.</li>
+				<li>Grow.</li>
+			</ul>
+			
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,5 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro';
+import ThemeIcon from './ThemeIcon.astro';
 import { SITE_TITLE } from '../consts';
 ---
 
@@ -12,6 +13,7 @@ import { SITE_TITLE } from '../consts';
 			<HeaderLink href="/about">About</HeaderLink>
 			<HeaderLink href="/search">Search</HeaderLink>
 		</div>
+		<ThemeIcon />
 		<div class="social-links">
 			<a href="https://x.com/nick_nadolski" target="_blank">
 				<span class="sr-only">Follow me on Twitter</span>
@@ -48,6 +50,12 @@ import { SITE_TITLE } from '../consts';
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
+
+	header.dark {
+		background-color: #171717;
+
+	}
+
 	h2 {
 		margin: 0;
 		font-size: 1em;

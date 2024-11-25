@@ -10,6 +10,7 @@ const blog = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
+    isMultiLingual: z.boolean().default(false),
   }),
 });
 
@@ -23,6 +24,7 @@ const de = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
+    isMultiLingual: z.boolean().optional().default(false),
   }),
 });
 

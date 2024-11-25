@@ -14,7 +14,7 @@ if (url[url.length-1] === '/') {
 }
 const splittArr = url.split('/')
 const page = splittArr[splittArr.length - 1];
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, isMultiLingual } = Astro.props;
 ---
 
 <html lang="en">
@@ -94,9 +94,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 								)
 							}
 						</div>
+						{ isMultiLingual ?
 						<div class="languages">
 							<a href={"/blog/".concat(page)} class={isGerman ? "" : "active"}>EN</a> / <a href={"/blog/de/".concat(page)} class={isGerman ? "active" : ""}>DE</a> 
 						</div> 
+						: '' }
 						<h1>{title}</h1>
 						<hr />
 					</div>

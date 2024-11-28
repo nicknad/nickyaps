@@ -42,7 +42,11 @@ Since peoples time and attention spans are more limited then ever do not create 
 
 The _conclusion_ should help the reader feel convinced of your statement in the hook or conviced to end the topic here and come back another day for another post. Either way it should feel like your blog post was a tighly packed information unit that belongs together. If possible there should be nothing immediate related left unmentioned.
 
-With the hook delivered it is now time to shine. What does the truth of your statement mean, what can be _concluded_ or _derived_? How does this relate to other things? Be brave. End with a banger.
+With the promise from the hook delivered it is now your time to shine. What does the truth of your statement or the answer to the question mean? What can be _concluded_ or _derived_? How does this relate to other things? Be brave. End with a banger. This is your chance to present your opinion and form the opinion of others. This is your chance to put a piece of information into context. Think big picture.
 
-> “Live as if you were to die tomorrow. Learn as if you were to live forever.”
+Personally I would recommend ending with a quote or statement that sums up the message you wanted to convey. The essence of your text, this will leave your reader more satisfied.
+
+Which concludes our blog post. I believe you can use this advice to create high quality blogs. So go out there, participate and build the web you want to be part off.
+
+> “Be the change that you wish to see in the world.”
 > ― Mahatma Gandhi
